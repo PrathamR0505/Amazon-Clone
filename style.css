@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+   
+}
+
+.navbar{
+    color: white;
+    height: 60px;
+    background-color: rgb(7, 6, 42);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* box1 */
+.navlogo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url("/Amazon-Clone/img/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid black;
+    border-radius: 3px;
+    
+}
+/* box2 */
+.navaddress{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.address{
+    color: aliceblue;
+    font-size: 1.15rem;
+    margin-left: 13px;
+}
+
+.india{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.navsearch{
+    display: flex;
+    width: 650px;
+    height: 40px;
+    background-color: rgb(247, 192, 84);
+    border-radius: 5px;
+    /* border: 2px solid transparent; */
+   margin-left: 2px;
+    margin-right: 2px;
+}
+.navsearch:hover{
+    border:1.5px solid  rgb(247, 192, 84);
+}
+.selectall{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    font-weight: 600;
+    color: black;
+}
+.searchbar{
+    width: 600px;
+    border: none;
+    font-size: 1rem;
+    /* border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; */
+
+}
+.searchicon{
+    width: 40px;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     font-size: 1.2rem;
+     color: black;
+}
+ 
+/* box4 */
+.signin{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.signininfo{
+            font-size: 0.7rem;
+}
+
+.addinfo{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.orderandreturn{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+/* box6 */
+.cart i{
+    font-size: 1.5rem;
+}
+
+.cart{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/* panle */
+.panle{
+    color: white;
+    display: flex;
+    background-color:rgba(4, 3, 36, 0.922);
+    height: 35px;
+    align-items: center;
+    padding-left: 38px;
+    justify-content: space-between;
+}
+.panle p{
+    display: inline;
+    margin-left: 10px;
+}
+.all{
+    font-weight: 600;
+}
+/* .moveonit:hover{
+
+      font-weight: 500;
+} */
+ 
+.panleitems{
+    width: 70%;
+}
+.dealsandelectronics{
+    padding-right:38px ;
+    font-weight: 600;
+}
+
+
+/* hero-section */
+.hero-section{
+    background-image: url("/Amazon-Clone/img/main2.jpg");
+    height: 300px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(124, 124, 124);
+    
+}
+
+.heromessage{
+    background-color: #f3f3f3;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    font-size: 0.90rem;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.heromessage a{
+    color: rgb(14, 72, 120);
+    text-decoration: none;
+}
+.heromessage p{
+    color: black;
+}
+.herobox{
+    /* background-color: rgba(124, 124, 124, 0.151); */
+    /* background: linear-gradient(to bottom, #FFC6F3, rgb(124, 124, 124)); */
+    background: linear-gradient(to bottom, rgba(241,224,232,255), rgba(124, 124, 124, 0.151));
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.box{
+    color: black;
+    /* border: 2px solid black; */
+    height: 330px;
+    width: 20.5%;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 10px;
+}
+.box1{
+    align-items: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.boxtitle1{
+    text-underline-position: below;
+    /* text-decoration:double underline; */
+    text-decoration:dotted underline;
+}
+.box1img{
+    height: 60%;
+    background-size: cover;
+    position: relative;
+    top: 15px;
+}
+
+.link1{
+    text-decoration: none;
+    color: rgba(0, 55, 255, 0.623);
+    padding-top: 15px;
+    position: relative;
+    top: 32px;
+    left: -96.5px;
+}
+
+/* box2 */
+.box2{
+    align-items: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.boxtitle2{
+    text-underline-position: below;
+    /* text-decoration:double underline; */
+    text-decoration:dotted underline;
+    position: relative;
+    top: 5px;
+    right: 15px;
+}
+.box2img{
+    height: 85%;
+    background-size: cover;
+    position: relative;
+    top: 15px;
+}
+
+/* box3 */
+.box3{
+    align-items: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.boxtitle3{
+    text-underline-position: below;
+    /* text-decoration:double underline; */
+    text-decoration:dotted underline;
+    position: relative;
+    top: 5px;
+    right: 32px;
+}
+.box3img{
+    height: 73.5%;
+    background-size: cover;
+    position: relative;
+    top: 15px;
+}
+
+.link3{
+    text-decoration: none;
+    color: rgba(0, 55, 255, 0.623);
+    padding-top: 15px;
+    position: relative;
+    top: 29px;
+    left: -96.5px;
+}
+
+ /* box4  */
+.box4{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ .box4{
+    align-items: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.boxtitle4{
+    text-underline-position: below;
+    /* text-decoration:double underline; */
+    text-decoration:dotted underline;
+    position: relative;
+    top: 5px;
+    right: 32px;
+}
+.box4img{
+    height: 69%;
+    background-size: cover;
+    position: relative;
+    top: 27px;
+}
+
+.link4{
+    text-decoration: none;
+    color: rgba(0, 55, 255, 0.623);
+    padding-top: 15px;
+    position: relative;
+    top: 44px;
+    left: -96.5px;
+}
+
+/* herobox2 */
+.herobox2{
+     background-color: rgba(124, 124, 124, 0.151);
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+ 
+/* box5 */
+.boxtitle5{
+    text-underline-position: below;
+    /* text-decoration:double underline; */
+    text-decoration:dotted underline;
+    position: relative;
+    top: 5px;
+    right:44px;
+}
+.box5img{
+    height: 73%;
+    background-size: cover;
+    position: relative;
+    top: 15px;
+}
+
+.link5{
+    text-decoration: none;
+    color: rgba(0, 55, 255, 0.623);
+    padding-top: 15px;
+    position: relative;
+    top: 32px;
+    left: -96.5px;
+}
+
+/* box6 */
+.boxtitle6{
+    text-underline-position: below;
+    /* text-decoration:double underline; */
+    text-decoration:dotted underline;
+    position: relative;
+    top: 5px;
+    right:79px;
+}
+
+/* box7 */
+.boxtitle7{
+    text-underline-position: below;
+    /* text-decoration:double underline; */
+    text-decoration:dotted underline;
+    position: relative;
+    top: 5px;
+    right:53px;
+}
+
+/* box8 */
+.boxtitle8{
+    text-underline-position: below;
+    /* text-decoration:double underline; */
+    text-decoration:dotted underline;
+    position: relative;
+    top: 7px;
+    right:94px;
+}
+
+/* .herobox2{
+    background-color: rgba(124, 124, 124, 0.151);
+    background: linear-gradient(to bottom, #FFC6F3, rgb(124, 124, 124));
+    background: linear-gradient(to bottom, rgba(241,224,232,255), rgba(124, 124, 124, 0.151));
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+.box2{
+    color: black;
+    border: 2px solid black;
+    height: 330px;
+    width: 20.5%;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 10px;
+}
+.box9{
+    align-items: center;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.boxtitle9{
+    text-underline-position: below;
+    text-decoration:double underline;
+    text-decoration:dotted underline;
+    position: relative;
+    top: 5px;
+    right: 98px;
+}
+.boximg9{
+     display: grid;
+    grid-template-rows: 120px 120px;
+    grid-template-columns: 120px 120px; 
+}
+.image1{
+    background: scroll; 
+    background-size: 10rem;
+} */
+
+/* footer */
+
+.footer-panel1{
+    background-color: rgba(34, 34, 75, 0.984);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.footer-content{
+    display: flex;
+    background-color: rgb(42, 42, 65);
+    height: 250px;
+    color: white;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+.footer-panel2{
+    height: 70px;
+    background-color: rgb(42, 42, 65);
+    color: white;
+    border-top: 1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.footer-panel3{
+     background-color:  rgb(7, 6, 42);
+     height: 50px;
+     color: whitesmoke;
+}
+.terms-and-Conditions{
+    padding-top: 10px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align:center;
+}
